@@ -1,5 +1,5 @@
 ---
-created_at: 2018-05-14
+created_at: 2018-05-12
 kind: article
 publish: true
 title: "Reason in a nutshell - Getting Started Guide"

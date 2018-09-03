@@ -1,8 +1,8 @@
 author:
-  name: Zaiste
-  twitter: "@zaiste"
+  name: Bosunski
+  twitter: "@bosunski"
 
-title: Zaiste, Software Technologist 
+title: Bosunski, PHP Developer
 
 meta:
   description: "Zaiste is a Software Technologist who helps companies and brands build great software products. Expertise in: Java, Ruby, Python, JavaScript and Clojure."
@@ -14,8 +14,8 @@ meta:
       height: 512
       type: img/jpg
   twitter:
-    site: zaiste 
-    creator: "@zaiste"
+    site: bosunski
+    creator: "@bosunski"
     image:
       url: https://zaiste.net/images/zaiste.jpg 
     domain: zaiste.net

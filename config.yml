@@ -4,7 +4,7 @@ stylesheets:
 javascripts:
   - 'https://unpkg.com/jquery/dist/jquery.js'
 output_dir: public
-base_url: https://zaiste.net
+base_url: https://bosunski.fun
 ga:
   domain: zaiste.net
   site_id: UA-20458791-1
