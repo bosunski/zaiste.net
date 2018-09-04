@@ -5,11 +5,11 @@ author:
 title: Bosunski, PHP Developer
 
 meta:
-  description: "Zaiste is a Software Technologist who helps companies and brands build great software products. Expertise in: Java, Ruby, Python, JavaScript and Clojure."
+  description: "Bosunski is a Software Developer who helps companies and brands build great software products. Expertise in: PHP and JavaScript"
   facebook:
-    site_name: zaiste 
+    site_name: bosunski
     image:
-      url: https://zaiste.net/images/zaiste.jpg 
+      url: http://bosunski.fun/images/bosunski.jpeg
       width: 512
       height: 512
       type: img/jpg
@@ -17,8 +17,8 @@ meta:
     site: bosunski
     creator: "@bosunski"
     image:
-      url: https://zaiste.net/images/zaiste.jpg 
-    domain: zaiste.net
+      url: http://bosunski.fun/images/bosunski.jpeg
+    domain: bosunski.fun
     
 workshops:
 - name:  Angular Workshop with Onepoint

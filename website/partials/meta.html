@@ -1,43 +1,43 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<meta name="author" content="{{ data.author.name }}" />
-<meta name="description" content="{% if data.page.tags %}{{ data.page.excerpt }}{% else %}{{ data.meta.description }}{% endif %}" />
+<meta name="author" content="{{ config.author.name }}" />
+<meta name="description" content="{% if config.page.tags %}{{ config.page.excerpt }}{% else %}{{ config.meta.description }}{% endif %}" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="{{ data.meta.facebook.description or data.meta.description }}"/>
-<meta property="og:title" content="{{ data.meta.facebook.title or data.title }}"/>
-<meta property="og:site_name" content="{{ data.meta.facebook.site_name }}"/>
-<meta property="og:image" content="{{ data.meta.facebook.image.url }}" />
-<meta property="og:image:type" content="{{ data.meta.facebook.image.type }}" />
-<meta property="og:image:width" content="{{ data.meta.facebook.image.width }}" />
-<meta property="og:image:height" content="{{ data.meta.facebook.image.height }}" />
-<meta property="og:url" content="{{ data.meta.facebook.url }}">
-<meta property="og:locale" content="{{ data.meta.facebook.locale or 'en_US' }}">
+<meta property="og:description" content="{{ config.meta.facebook.description or config.meta.description }}"/>
+<meta property="og:title" content="{{ config.meta.facebook.title or config.title }}"/>
+<meta property="og:site_name" content="{{ config.meta.facebook.site_name }}"/>
+<meta property="og:image" content="{{ config.meta.facebook.image.url }}" />
+<meta property="og:image:type" content="{{ config.meta.facebook.image.type }}" />
+<meta property="og:image:width" content="{{ config.meta.facebook.image.width }}" />
+<meta property="og:image:height" content="{{ config.meta.facebook.image.height }}" />
+<meta property="og:url" content="{{ config.meta.facebook.url }}">
+<meta property="og:locale" content="{{ config.meta.facebook.locale or 'en_US' }}">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="{{ data.meta.twitter.site }}">
-<meta name="twitter:title" content="{{ data.meta.twitter.title or data.title }}">
-<meta name="twitter:creator" content="{{ data.meta.twitter.creator }}">
-<meta name="twitter:description" content="{{ data.meta.twitter.description or data.meta.description }}">
-<meta name="twitter:image:src" content="{{ data.meta.twitter.image.url }}">
-<meta name="twitter:domain" content="{{ data.meta.twitter.domain }}">
+<meta name="twitter:site" content="{{ config.meta.twitter.site }}">
+<meta name="twitter:title" content="{{ config.meta.twitter.title or config.title }}">
+<meta name="twitter:creator" content="{{ config.meta.twitter.creator }}">
+<meta name="twitter:description" content="{{ config.meta.twitter.description or config.meta.description }}">
+<meta name="twitter:image:src" content="{{ config.meta.twitter.image.url }}">
+<meta name="twitter:domain" content="{{ config.meta.twitter.domain }}">
 
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Person",
-  "name": "Zaiste",
+  "name": "Bosunski",
   "jobTitle": "CEO",
-  "image": "assets/images/zaiste.jpg",
-  "url": "https://zaiste.net",
+  "image": "http://bosunski.fun/images/bosunski.jpeg",
+  "url": "http://bosunski.fun",
   "sameAs": [
-    "https://instagram.com/zaiste",
-    "https://www.linkedin.com/in/zaiste",
-    "https://twitter.com/zaiste",
-    "https://github.com/zaiste"
+    "https://instagram.com/bosunsky",
+    "https://www.linkedin.com/in/bosunski",
+    "https://twitter.com/bosunski",
+    "https://github.com/bosunski"
   ]
 }
 </script>

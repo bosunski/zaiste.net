@@ -6,10 +6,33 @@ javascripts:
 output_dir: public
 base_url: https://bosunski.fun
 ga:
-  domain: zaiste.net
-  site_id: UA-20458791-1
+  domain: bosunski.fun
+  site_id: UA-125138257-1
 deploy:
   server: nu02
   path: /srv/www/zaiste.net/html
 blog:
   prefix: none
+
+author:
+  name: Bosunski
+  twitter: "@bosunski"
+
+
+title: Bosunski, PHP Developer
+
+meta:
+  description: "Bosunski is a Software Developer who helps companies and brands build great software products. Expertise in: PHP and JavaScript"
+  facebook:
+    site_name: bosunski
+    image:
+      url: http://bosunski.fun/images/bosunski.jpeg
+      width: 512
+      height: 512
+      type: img/jpg
+  twitter:
+    site: bosunski
+    creator: "@bosunski"
+    image:
+      url: http://bosunski.fun/images/bosunski.jpeg
+    domain: bosunski.fun
