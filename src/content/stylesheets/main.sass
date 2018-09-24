@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css?family=Lato")
+@import url('https://fonts.googleapis.com/css?family=Satisfy')
+
+body
+  font-family: "Avenir Next", "Lato"
+  color: #4b4b4b
+  text-rendering: optimizeLegibility
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+
+.logo
+  font-family: "Satisfy"
+  font-size: x-large
+
+a
+  text-decoration: none !important
+
+.presentations
+  list-style: none
+  margin: 0
+  padding: 0
+  li
+    margin-bottom: 1.25rem
+  h3 a
+    color: inherit
+    border-bottom: 3px solid #cee3f2
+    transition: border 0.2s ease
+    background-color: transparent
+    text-decoration: none
+    -webkit-transition: background-color, color, border-bottom 0.2s
+    transition: background-color, color, border-bottom 0.2s
+    &:hover
+      background-color: #f4f4f4
+      color: #000
+      border-bottom: 3px solid #3C93CE
+
+.articles
+  list-style: none
+  padding: 0
+  margin: 0
+  li
+    margin-bottom: 1.25rem
+  h3, h4
+    line-height: 1.75
+  h3 a, h4 a
+    color: inherit
+    border-bottom: 3px solid #cee3f2
+    transition: border 0.2s ease
+    background-color: transparent
+    text-decoration: none
+    -webkit-transition: background-color, color, border-bottom 0.2s
+    transition: background-color, color, border-bottom 0.2s
+  h3 a:hover, h4 a:hover
+    background-color: #f4f4f4
+    color: #000
+    border-bottom: 3px solid #3C93CE
+  p
+    margin-bottom: 0.5rem
+    font-size: 0.8rem
+    color: #666
+  span
+    display: inline-flex
+    font-size: 0.8em
+    align-items: center
+    color: #858585
+
+article
+  font-size: 1.25rem
+  h2
+    font-size: 1.5em
+    margin-top: 2.5rem
+  h3
+    margin-top: 1.25rem
+    margin-bottom: 1rem
+    font-size: 1.25em
+    color: #454545
+    padding-bottom: 0.25rem
+    border-bottom: 1px solid #DEDEDE
+    font-weight: 500
+  h2[id]:hover a.anchor:after, h3[id]:hover a.anchor:after
+    font-size: 0.75em
+    color: #CCC
+    content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjI0cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxwYXRoIGQ9Ik0xNi45LDcuMWMtMC40LTAuNC0xLTAuNC0xLjQsMGwtOC40LDguNGMtMC40LDAuNC0wLjQsMSwwLDEuNGMwLjQsMC40LDEsMC40LDEuNCwwbDguNC04LjRDMTcuMyw4LjEsMTcuMyw3LjUsMTYuOSw3LjF6Ii8+PHBhdGggZD0iTTguNSwyMi41TDEyLDE5YzEuNC0xLjQsMS44LTMuNSwxLjEtNS4zbC0xLjcsMS43YzAsMC44LTAuMiwxLjYtMC45LDIuM2wtMy41LDMuNWMtMS4yLDEuMi0zLjEsMS4yLTQuMiwwICAgYy0xLjItMS4yLTEuMi0zLjEsMC00LjJsMy41LTMuNWMwLjYtMC42LDEuNS0wLjksMi4zLTAuOWwxLjctMS43QzguNSwxMC4yLDYuNCwxMC41LDUsMTJsLTMuNSwzLjVjLTEuOSwxLjktMS45LDUuMSwwLDcgICBDMy40LDI0LjUsNi42LDI0LjUsOC41LDIyLjV6Ii8+PHBhdGggZD0iTTEzLjQsNi40bDMuNS0zLjVjMS4yLTEuMiwzLjEtMS4yLDQuMiwwczEuMiwzLjEsMCw0LjJsLTMuNSwzLjVjLTAuNiwwLjYtMS41LDAuOS0yLjMsMC45bC0xLjcsMS43ICAgYzEuOCwwLjcsMy45LDAuMyw1LjMtMS4xbDMuNS0zLjVjMS45LTEuOSwxLjktNS4xLDAtN2MtMS45LTEuOS01LjEtMS45LTcsMEwxMiw1Yy0xLjQsMS40LTEuOCwzLjUtMS4xLDUuM2wxLjctMS43ICAgQzEyLjUsNy44LDEyLjgsNywxMy40LDYuNHoiLz48L2c+PC9zdmc+")
+    margin-left: 2em
+    display: inline-block
+  p a, ul a
+    color: inherit
+    border-bottom: 3px solid #cee3f2
+    transition: border 0.2s ease
+    background-color: transparent
+    text-decoration: none
+    -webkit-transition: background-color, color, border-bottom 0.2s
+    transition: background-color, color, border-bottom 0.2s
+  p a:hover, ul a:hover
+    background-color: #f4f4f4
+    color: #000
+    border-bottom: 3px solid #3C93CE
+  .notice
+    padding: 1em 1.5em
+    margin: 1em 0
+    line-height: 1.5
+    &.warning
+      background-color: rgba(255, 221, 109, 0.2)
+      border-left: 10px solid rgba(255, 221, 109, 0.7)
+      border-right: 1px solid rgba(255, 221, 109, 0.7)
+      border-top: 1px solid rgba(255, 221, 109, 0.7)
+      border-bottom: 1px solid rgba(255, 221, 109, 0.7)
+    &.blockquote
+      background-color: rgba(228, 228, 228, 0.2)
+      border-left: 10px solid rgba(228, 228, 228, 0.7)
+      border-right: 1px solid rgba(228, 228, 228, 0.7)
+      border-top: 1px solid rgba(228, 228, 228, 0.7)
+      border-bottom: 1px solid rgba(228, 228, 228, 0.7)
+    &.alert
+      box-shadow: -8px 0 0 #cc3131
+  pre
+    display: block
+    font-size: 0.8em
+    padding: 1em 1em
+    line-height: 1.3
+    background: none repeat scroll 0 0 #475359
+    overflow-x: scroll
+    white-space: pre
+    margin: 0
+    code
+      padding: 0
+      font-family: "Consolas", "Menlo", Courier, monotype
+      color: #efefef
+      background-color: transparent
+      border: 0
+      word-spacing: normal
+      word-break: normal
+  p code, ul code
+    padding: 0 2px
+    border-radius: 4px
+    color: #6772e5
+    font-size: 1rem
+
+pre
+  background: none
+  color: #ACACAC
+  padding: 1rem 0
+  font-size: 1em
+
+.footer
+  background: #475359
+  color: #CCC
+  margin-top: 1rem
+  padding: 2.5rem 0
+  h3
+    font-weight: 600
+    color: #EFEFEF
+    font-size: 1.25em
+    margin-bottom: 0.5rem
+  h4
+    font-weight: 600
+    margin-bottom: 0.5rem
+    color: #EEE
+  a
+    color: #3C93CE
+  ul li a
+    color: #CCC
+    &:hover
+      color: #EEE
+
+h1
+  font-weight: 500
+  margin: 0
+  margin-bottom: 1.25rem
+  &.title
+    margin-bottom: 0
+
+.meta
+  margin-bottom: 1.25rem
+
+h2
+  font-weight: 400
+
+p
+  margin: 0
+  margin-bottom: 0.5em
+  line-height: 1.5
+
+p
+  img
+    width: 100%
+
+.hljs-comment, .hljs-quote
+  color: #7c8390
+  font-style: normal
+
+small
+  color: #999
+  font-size: 0.8em
+
+p + p
+  margin-top: 1em
+
+.bottom
+  background-color: #26262F
+  color: #ACACAC
+  font-size: 0.75em
+  padding: 1.5rem
+
+article
+  ol
+    margin-top: 1rem
+    margin-bottom: 1rem
+    line-height: 1.75
+  ul
+    margin-top: 1rem
+    margin-bottom: 1rem
+    line-height: 1.75
+    list-style: disc
+
+img
+  border: 1px solid #DDD
+  margin-top: 1.25rem
+  margin-bottom: 1.25rem
+  &.header
+    margin-bottom: 1.25rem
+
+.menu
+  font-size: 1rem
+  position: sticky
+  top: 1.25rem
+
+.menu-list
+  list-style: none
+  padding: 0
+  border-left: 1px solid #EFEFEF
+  line-height: 1.25
+  a
+    border-radius: 3px
+    color: #222
+    display: block
+    padding: 0.5em 0.75em
+    &:hover
+      background-color: #EEE
+      color: #666
+    &.is-active
+      background-color: #DDD
+      color: blue
+  li ul
+    border-left: 1px solid #EEE
+    margin: 0.75em
+    padding-left: 0.75em
+
+.menu-label
+  color: #666
+  font-size: 0.75em
+  letter-spacing: 0.1em
+  text-transform: uppercase
+  &:not(:first-child)
+    margin-top: 1em
+  &:not(:last-child)
+    margin-bottom: 1em
+
+main
+  margin-top: 1.25rem
+  flex: 1
+
+.badge
+  font-weight: 400
+  background-color: #F4F4F4
+
+.tags
+  display: inline-block
+
+nav.navbar
+  box-shadow: 0 1px 0 0 #DEDEDE
+  .nav-link
+    color: #111 !important
+
+pre +
+pre
+  margin-top: 0
+  background: #333
+  &::before
+    content: 'Output'
+    display: block
+    font-size: .8rem
+    float: right
+  p
+    margin-top: 1.25rem
+
+code[class*="language-"], pre[class*="language-"]
+  color: #c5c8c6
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3)
+  font-family: Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace
+  direction: ltr
+  text-align: left
+  white-space: pre
+  word-spacing: normal
+  word-break: normal
+  line-height: 1.5
+  -moz-tab-size: 4
+  -o-tab-size: 4
+  tab-size: 4
+  -webkit-hyphens: none
+  -moz-hyphens: none
+  -ms-hyphens: none
+  hyphens: none
+
+\:not(pre) > code[class*="language-"]
+  padding: .1em
+  border-radius: .3em
+
+.token
+  &.comment, &.prolog, &.doctype, &.cdata
+    color: #7C7C7C
+  &.punctuation
+    color: #c5c8c6
+
+.namespace
+  opacity: .7
+
+.token
+  &.property, &.keyword, &.tag
+    color: #96CBFE
+  &.class-name
+    color: #FFFFB6
+  &.boolean, &.constant
+    color: #99CC99
+  &.symbol, &.deleted
+    color: #f92672
+  &.number
+    color: #FF73FD
+  &.selector, &.attr-name, &.string, &.char, &.builtin, &.inserted
+    color: #A8FF60
+  &.variable
+    color: #C6C5FE
+  &.operator
+    color: #EDEDED
+  &.entity
+    color: #FFFFB6
+  &.url
+    color: #96CBFE
+
+.language-css .token.string, .style .token.string
+  color: #87C38A
+
+.token
+  &.atrule, &.attr-value
+    color: #F9EE98
+  &.function
+    color: #DAD085
+  &.regex
+    color: #E9C062
+  &.important
+    color: #fd971f
+    font-weight: bold
+  &.bold
+    font-weight: bold
+  &.italic
+    font-style: italic
+  &.entity
+    cursor: help
+

@@ -39,7 +39,7 @@ FACEBOOK_CLIENT_CALLBACK=/login/facebook/callback
 
 Then we'll configure `config/services.php` like this:
 
-```js
+```php
 return [
 	//...
 	'facebook' => [
